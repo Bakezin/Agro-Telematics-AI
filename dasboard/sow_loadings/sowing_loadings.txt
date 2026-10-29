@@ -1,0 +1,2 @@
+Systém monitoruje nakládku osiv a hnojiv do secích souprav, normalizuje SPZ techniky a automaticky přepočítává objemy na kilogramy pro ověření dodržení výsevních norem a oseté plochy.
+The system monitors seed and fertilizer loadings for sowing machinery, normalizing vehicle license plates and converting volumes into kilograms to verify sowing rates and estimated seeded hectares.

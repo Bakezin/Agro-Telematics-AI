@@ -1,0 +1,42 @@
+================================================================================
+AGROMINO TELEMATICS, IOT & AGRO COMPUTER VISION SUITE — PORTFOLIO OVERVIEW (EN)
+================================================================================
+
+1. YOLO Computer Vision & Weighbridge Timer (timer/)
+An intelligent computer vision system leveraging a YOLO object detection model and polygon ROIs to detect trucks on weighbridges and precisely measure scale dwell times. It coordinates a secondary camera with Google Cloud Vision OCR for automatic license plate recognition (ANPR), dispatching real-time Telegram photo alerts and automated end-of-day summary reports.
+
+2. Big-Bag Seed Loading Detection & Counting (bag_detect/)
+An object detection model trained on Roboflow analyzing field CCTV streams during the sowing campaign. It automatically detects big-bag seed loadings into seed drills, registering exact loading timestamps and counting the number of loaded bags for material auditing and inventory loss control.
+
+3. On-Combine Crop Segmentation & Harvest State (crop_segmentatiopm/)
+A computer vision semantic segmentation model trained on a custom dataset of on-combine camera footage. It automatically identifies the crop being harvested in real time from live video streams and classifies field status (harvested stubble vs. standing crop) to verify actual harvest progress.
+
+4. Central Executive Agribusiness Dashboard (dasboard/dasboard/)
+The central executive dashboard consolidates enterprise agribusiness KPIs in real time, encompassing local weather, planting progress, harvest pacing, logistics, and machinery telemetry. Its modular, fault-tolerant architecture guarantees seamless data presentation for executive management across distributed production clusters.
+
+5. Harvest Telematics Master Reconciliation (dasboard/telematics/)
+This system delivers automated telematics reconciliation matching combines, chaser bins, and haulage trucks with digital weighbridge tickets for harvest oversight. It detects field-to-scale weight discrepancies and unassigned unloadings in real time while optimizing the logistics chain from field to elevator.
+
+6. Elevator Truck Flow & Bottleneck Analytics (dasboard/elevator_flow/)
+This application analyzes truck turnaround times at the central grain elevator from gross to tare weighing, pinpointing hourly bottlenecks and queue formations. It provides dispatchers with granular dwell time distributions to optimize vehicle dispatching and hauling schedules from the harvest fields.
+
+7. Security & Guard Patrol Monitoring (dasboard/patrol/)
+This module continuously monitors security guard patrol rounds across agricultural bases, machinery depots, and weigh stations using electronic checkpoint scans. It instantly detects skipped checkpoints or delayed patrol intervals, maintaining enterprise-grade protection over agricultural assets.
+
+8. Crop Scouting & Agronomic Threats Heatmap (dasboard/scout/)
+This module aggregates field scouting reports from Cropwise, visualizing crop health and pinpointing weed, disease, and pest threats across production clusters on an interactive map. It delivers early detection of agronomical threats with geotagged photo documentation and field-level spatial precision.
+
+9. Harvesting Combines Telematics Widget (dasboard/komba/)
+This widget monitors real-time combine harvester telemetry and operational status, calculating active working hours, hourly efficiency (ha/h), and harvesting pace segmented by crop and cluster. It allows operational managers to benchmark machine efficiency across crops and regions, instantly addressing field downtime during the harvest campaign.
+
+10. Sowing Logistics & Seeder Loading Telemetry (dasboard/sow_loadings/)
+The system monitors seed and fertilizer loadings for sowing machinery, normalizing vehicle license plates and converting volumes into kilograms to verify sowing rates and estimated seeded hectares. It prevents seeding norm violations and provides immediate transparency over material consumption across field parcels.
+
+11. Sowing Campaign Progress & Field Pacing (dasboard/sow/)
+This full-scale sowing campaign dashboard tracks seeded hectares against planned targets, monitoring daily pacing and forecasting completion dates across all agricultural clusters. It offers executive leadership dynamic campaign completion forecasts based on empirical machinery output.
+
+12. Agro-Climatic Weather Analytics (dasboard/weather/)
+This comprehensive agro-climatic module analyzes precipitation, temperature extremes, snow depth, and wind speeds across local weather stations, benchmarking the current season against 5-year historical norms. It supports agronomic scheduling and early detection of drought and frost stress.
+
+13. Crop Rotation & Field Operations Synchronization (dasboard/crop_rotation_demo/)
+This module provides automated synchronization of crop rotation cycles and field operations (sowing, harvesting, and yield metrics) with the Cropwise platform, eliminating manual data entry. It enables precise tracking of field statuses across seasons and safely commits verified telematics data to central agronomic records.

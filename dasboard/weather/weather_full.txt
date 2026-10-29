@@ -1,0 +1,2 @@
+Komplexní agroklimatický modul analyzuje srážky, teploty, sněhovou pokrývku a vítr na stanicích podniku a srovnává aktuální sezónu s pětiletým klimatickým normálem.
+This comprehensive agro-climatic module analyzes precipitation, temperature extremes, snow depth, and wind speeds across local weather stations, benchmarking the current season against 5-year historical norms.

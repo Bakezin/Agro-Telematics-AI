@@ -1,0 +1,1 @@
+A concept assistant for real-time harvesting status visualization and monitoring. It identifies active field operations and automatically logs combine start/end timestamps, operational downtime, active machine counts, harvested hectares, and average working speeds directly into the database based on live telematics data.

@@ -1,0 +1,2 @@
+Modul agreguje zprávy polního průzkumu (crop scouting) z platformy Cropwise a vizualizuje fytosanitární stav porostů i vývoj fenologických fází na interaktivní mapě.
+This module aggregates field scouting reports from Cropwise, visualizing crop health and pinpointing weed, disease, and pest threats across production clusters on an interactive map.

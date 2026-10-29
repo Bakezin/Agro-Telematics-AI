@@ -1,0 +1,2 @@
+Tento modul slouží k automatizované synchronizaci osevních postupů a polních operací (setí, sklizeň a výnosy) s platformou Cropwise bez nutnosti manuálního přepisování agronomických dat.
+This module provides automated synchronization of crop rotation cycles and field operations (sowing, harvesting, and yield metrics) with the Cropwise platform, eliminating manual data entry.

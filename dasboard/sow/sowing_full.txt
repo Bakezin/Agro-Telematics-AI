@@ -1,0 +1,2 @@
+Plnohodnotný manažerský přehled osevní kampaně detailně sleduje postup setí plodin, srovnává osetou plochu s plánem a vypočítává odhadované datum dokončení pro každý klastr.
+This full-scale sowing campaign dashboard tracks seeded hectares against planned targets, monitoring daily pacing and forecasting completion dates across all agricultural clusters.

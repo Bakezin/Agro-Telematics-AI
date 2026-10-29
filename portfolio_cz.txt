@@ -1,0 +1,42 @@
+================================================================================
+AGROMINO TELEMATICS, IOT & AGRO COMPUTER VISION SUITE — PŘEHLED (ČEŠTINA)
+================================================================================
+
+1. YOLO Computer Vision & Weighbridge Timer (timer/)
+Inteligentní systém počítačového vidění využívá model YOLO a polygonové zóny zájmu (ROI) pro automatickou detekci nákladních vozidel na autováze a přesné měření doby vážení. Integruje sekundární kameru s OCR rozpoznáváním SPZ přes Google Cloud Vision a okamžitě odesílá telegramové notifikace s fotodokumentací a denními souhrnnými reporty.
+
+2. Big-Bag Seed Loading Detection & Counting (bag_detect/)
+Systém detekce objektů trénovaný na platformě Roboflow pro analýzu videozáznamů z polních kamer během osevní kampaně. Automaticky detekuje manipulaci a nakládku velkoobjemových vaků (big-bagů) s osivem do secích souprav, eviduje přesný čas nakládky a počítá počet vaků pro audit spotřeby materiálu.
+
+3. On-Combine Crop Segmentation & Harvest State (crop_segmentatiopm/)
+Model počítačového vidění pro sémantickou segmentaci trénovaný na vlastním datasetu snímků z palubních kamer sklízecích mlátiček. Umožňuje automaticky rozpoznávat sklizenou plodinu přímo z obrazu v reálném čase a detekovat stav porostu (sklizeno vs. nesklizeno) pro ověření skutečného postupu žní.
+
+4. Central Executive Agribusiness Dashboard (dasboard/dasboard/)
+Centrální exekutivní řídicí panel sjednocuje klíčové ukazatele zemědělského podniku v reálném čase, včetně počasí, postupu setí, tempa sklizně, logistiky a pohybu techniky. Modulární architektura zajišťuje vysokou dostupnost a plynulé zobrazení klíčových agronomických widgetů pro vedení společnosti.
+
+5. Harvest Telematics Master Reconciliation (dasboard/telematics/)
+Systém zajišťuje komplexní telematické párování překládacích vozů, kombajnů a odvozních souprav s elektronickými vážními lístky na sýpkách pro okamžitou kontrolu sklizně. Umožňuje v reálném čase odhalovat váhové odchylky, neautorizované vykládky a optimalizovat celý logistický řetězec z pole na elevátor.
+
+6. Elevator Truck Flow & Bottleneck Analytics (dasboard/elevator_flow/)
+Aplikace analyzuje plynulost pohybu nákladních automobilů na centrálním elevátoru od hrubého po tárovací vážení a identifikuje vznikající fronty v jednotlivých hodinách. Poskytuje dispečerům přesný přehled o časech odbavení (dwell time) pro optimalizaci vysílání odvozních vozidel z polí.
+
+7. Security & Guard Patrol Monitoring (dasboard/patrol/)
+Modul nepřetržitě monitoruje bezpečnostní obchůzky areálů, garáží mechanizace a vážních stanovišť podniku prostřednictvím elektronických kontrolních bodů. Okamžitě identifikuje vynechané body nebo nedodržené časové intervaly hlídek a zajišťuje vysokou úroveň ochrany zemědělského majetku.
+
+8. Crop Scouting & Agronomic Threats Heatmap (dasboard/scout/)
+Modul agreguje zprávy polního průzkumu (crop scouting) z platformy Cropwise a vizualizuje fytosanitární stav porostů i vývoj fenologických fází na interaktivní mapě. Zajišťuje včasnou detekci škůdců, chorob a zaplevelení napříč všemi výrobními středisky s fotodokumentací a geolokační přesností.
+
+9. Harvesting Combines Telematics Widget (dasboard/komba/)
+Tento widget sleduje operativní nasazení a telemetrii sklízecích mlátiček v reálném čase, přičemž počítá skutečnou dobu práce, hodinovou výkonnost (ha/h) a tempo sklizně podle plodin a regionů. Umožňuje manažerům okamžitě porovnávat efektivitu kombajnů podle plodin i regionů a včas reagovat na prostoje v průběhu žní.
+
+10. Sowing Logistics & Seeder Loading Telemetry (dasboard/sow_loadings/)
+Systém monitoruje nakládku osiv a hnojiv do secích souprav, normalizuje SPZ techniky a automaticky přepočítává objemy na kilogramy pro ověření dodržení výsevních norem a oseté plochy. Zabraňuje překračování technologických limitů a poskytuje okamžitý přehled o spotřebě osiva a hnojiv na jednotlivých polích.
+
+11. Sowing Campaign Progress & Field Pacing (dasboard/sow/)
+Plnohodnotný manažerský přehled osevní kampaně detailně sleduje postup setí plodin, srovnává osetou plochu s plánem a vypočítává odhadované datum dokončení pro každý klastr. Poskytuje vedení podniku dynamickou predikci ukončení jarních i podzimních prací na základě skutečného denního tempa mechanizace.
+
+12. Agro-Climatic Weather Analytics (dasboard/weather/)
+Komplexní agroklimatický modul analyzuje srážky, teploty, sněhovou pokrývku a vítr na stanicích podniku a srovnává aktuální sezónu s pětiletým klimatickým normálem. Slouží k predikci vhodných agrotechnických oken pro polní operace a včasné identifikaci rizik sucha či mrazu.
+
+13. Crop Rotation & Field Operations Synchronization (dasboard/crop_rotation_demo/)
+Tento modul slouží k automatizované synchronizaci osevních postupů a polních operací (setí, sklizeň a výnosy) s platformou Cropwise bez nutnosti manuálního přepisování agronomických dat. Umožňuje přesné sledování stavu jednotlivých polí napříč sezónami a bezpečný zápis ověřených telematických hodnot do evidence.
